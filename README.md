@@ -31,7 +31,7 @@ If they are not specified the script will prompt you for the required values.
 
 #### Getting PACO Timetable URLs
 1. Go to https://paco.ua.pt/horariosweb/
-2. Pick your department and course
+2. Pick your department, course, and curricular year
 3. Click on the link icon on the top of the screen to generate the url
 4. Rinse and repeat for all the desired urls
 
@@ -45,5 +45,5 @@ If they are not specified the script will prompt you for the required values.
 
 
 #### About .sttx:
-Format used by [SmartTimeTable](http://code.ua.pt/projects/stt), a java Swing app made by MIECT student Diogo Regateiro that generates all the permutations of possible timetables.
+Format used by [SmartTimeTable](http://code.ua.pt/projects/stt), a Java Swing app made by MIECT student Diogo Regateiro that generates all the permutations of possible timetables.
 Available for download [here](https://github.com/RodrigoRosmaninho/TimeTableParser-ua/raw/master/misc/SmartTimeTable%20v4.5.zip).
