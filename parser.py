@@ -15,7 +15,7 @@ parser.add_argument('-u', type=str, nargs='*', dest='urls',
                     help='specify all timetable urls separated by spaces' )
 
 parser.add_argument('-f', dest='format',
-                    help="specify desired output format (only sttx for now)")
+                    help="specify desired output format (eg: sttx)")
 
 def getUrls():
     print("Add all timetable urls seperated by ENTER. When done, press ENTER: ")
@@ -38,6 +38,7 @@ def main():
 
     if args.dest == None:
         dest = input("Specify destination file: ")
+        print("")
     else:
         dest = args.dest
 
