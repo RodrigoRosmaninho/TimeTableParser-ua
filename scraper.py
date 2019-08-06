@@ -102,6 +102,10 @@ def handleEvent(index, node):
     if comp in descr:
         descr = descr[len(comp):]
 
+    # If no descr is specified, hardcode value 1 to avoid NullPointerException on SmartTimeTable
+    if len(descr) == 0:
+        descr = "1"
+
     newClass = Class(Subject(subject, color), comp, descr, not comp == "OT")
     newLecture = Lecture(day, start, finish)
 
@@ -117,4 +121,3 @@ def getClasses(url):
     f = pq(url=url)
     f("#gvHorario").find(".event").each(handleEvent)
     return classes
-
