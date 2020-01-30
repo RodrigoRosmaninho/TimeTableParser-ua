@@ -96,7 +96,7 @@ def handleEvent(index, node):
     subject = parseSubject(n.find("span").text().split(" ")[0])
     location = n.find("sala").text()[1:]
     info = n.find("c").text().split("  ")
-    descr = info[0]
+    descr = info[0].split(" ")[-1]
     comp = info[1][1:-1]
 
     if comp in descr:
