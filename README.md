@@ -47,3 +47,7 @@ If they are not specified the script will prompt you for the required values.
 #### About .sttx:
 Format used by [SmartTimeTable](http://code.ua.pt/projects/stt), a Java Swing app made by MIECT student Diogo Regateiro that generates all the permutations of possible timetables.
 Available for download [here](https://github.com/RodrigoRosmaninho/TimeTableParser-ua/raw/master/misc/SmartTimeTable%20v4.5.zip).
+
+
+### Thanks:
+- [André Alves](https://github.com/andralves717)
